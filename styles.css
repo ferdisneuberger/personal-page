@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+
+.social-icons {
+    margin-top: 1em;
+}
+
+.social-icons a {
+    margin: 0 0.5em;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
+
+/* Adicionando regras de mídia para telas menores */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .social-icons a {
+        font-size: 1.2em;
+    }
+
+    /* Adicione estilos específicos para o nome "Fernando" em telas menores */
+    h1 span {
+        display: block;
+    }
+}
